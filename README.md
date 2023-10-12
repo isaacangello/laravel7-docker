@@ -1,7 +1,7 @@
 
 ##### Introduction
 This is a small project to run laravel 7 and mariadb, in docker using docker-compose.yml file, this aims to serve as a platform to study laravel based on the course
-
+[curso completo do desenvolvedor laravel da udemy](https://www.udemy.com/course/curso-completo-do-desenvolvedor-laravel/) made by [jorge San Aana](https://www.udemy.com/course/curso-completo-do-desenvolvedor-laravel/#instructor-1).
 ##### Requeriments and content
 This project use:
  - [webdevops/php-nginx:7.4-alpine Docker image.](https://dockerfile.readthedocs.io/en/latest/content/DockerImages/dockerfiles/php-nginx.html)
