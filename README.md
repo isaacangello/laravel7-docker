@@ -38,6 +38,7 @@ If the variables do not prevent the compilation of the docker image, it is advis
 
 ##### Introdução
 Esse é um pequeno projeto para rodar o laravel 7 e mariadb, em docker usando arquivo  docker-compose.yml,  esse tem por objetivo servir de plataforma Para estudar o laravel com baso no curso
+[curso completo do desenvolvedor laravel da udemy](https://www.udemy.com/course/curso-completo-do-desenvolvedor-laravel/) feito pelo [jorge San Aana](https://www.udemy.com/course/curso-completo-do-desenvolvedor-laravel/#instructor-1).
 
 ##### Requisitos e conteudo
 Esse projeto usa:
