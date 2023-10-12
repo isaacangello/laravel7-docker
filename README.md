@@ -50,8 +50,12 @@ Esse repositorio já contém  uma versão do laravel 7 com um projetinho nomeado
 ##### Configurando e rodando projeto
 
 Para rodar o projeto é necessário algumas configurações prévias:
+
 É preciso configurar variáveis de ambiente.
+
+
 Imagem docker do Mariadb.
+
 As variáveis de ambiente do mariadb são usadas no docker-compose.yml, e são referenciadas na documentação da imagem docker oficial do [maridadb](https://hub.docker.com/_/mariadb) , 
 procure a sessão "Environment Variables" na documentação da imagem docker, essas variáveis devem ser preenchidas no arquivo .env na mesma pasta do arquivo docker-compose.yml,
 caso contrátio a imagem não será compilada resultando e em um restart infinito.
@@ -61,7 +65,8 @@ caso contrátio a imagem não será compilada resultando e em um restart infinit
     MARIADB_USER={user}
     MARIADB_PASSWORD={passwdroot*}
 
-Variáveis de ambiente do laravel
+Variáveis de ambiente do laravel:
+
 As variáveis de ambiente do laravel são referenciadas na documenação do [laravel 7](https://laravel.com/docs/7.x/configuration#environment-configuration), a pesar   
 das variáveis não impedirem a compilação da imagem docker, mas é aconselhável que você configure os valores para acessar o banco de dados.
 
