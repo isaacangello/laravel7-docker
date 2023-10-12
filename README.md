@@ -13,8 +13,11 @@ This project use:
 ##### Configuring and running the project
 
 To run the project, some prior configurations are required:
+
 You need to configure environment variables.
+
 Mariadb docker image.
+
 The mariadb environment variables are used in docker-compose.yml, and are referenced in the [maridadb](https://hub.docker.com/_/mariadb) official docker image documentation,
 look for the "Environment Variables" section in the docker image documentation, these variables must be filled in the .env file in the same folder as the docker-compose.yml file,
 Otherwise the image will not be compiled resulting in an infinite remainder.
@@ -37,7 +40,7 @@ If the variables do not prevent the compilation of the docker image, it is advis
 
 
 ##### Introdução
-Esse é um pequeno projeto para rodar o laravel 7 e mariadb, em docker usando arquivo  docker-compose.yml,  esse tem por objetivo servir de plataforma Para estudar o laravel com baso no curso
+Esse é um pequeno projeto para rodar o laravel 7 e mariadb, em docker usando arquivo  docker-compose.yml,  esse tem por objetivo servir de plataforma Para estudar o laravel com base no curso
 [curso completo do desenvolvedor laravel da udemy](https://www.udemy.com/course/curso-completo-do-desenvolvedor-laravel/) feito pelo [jorge San Aana](https://www.udemy.com/course/curso-completo-do-desenvolvedor-laravel/#instructor-1).
 
 ##### Requisitos e conteudo
@@ -46,7 +49,7 @@ Esse projeto usa:
  - [mariadb:11.1.2 Docker image.](https://hub.docker.com/_/mariadb)
  - [curso-completo-do-desenvolvedor-laravel arquivos.](https://www.udemy.com/course/curso-completo-do-desenvolvedor-laravel/)
 
-Esse repositorio já contém  uma versão do laravel 7 com um projetinho nomeado pelo autor de super gestão então e preciso rodar no container o composer update, também já vem uma arquivo de dump mysql para criar o banco
+Esse repositorio já contém  uma versão do laravel 7 com um projetinho nomeado pelo autor de super gestão então e preciso rodar no container o composer update, também já vem uma arquivo de dump mysql para criar o banco de dados.
 
 ##### Configurando e rodando projeto
 
