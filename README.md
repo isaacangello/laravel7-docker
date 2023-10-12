@@ -26,7 +26,7 @@ Otherwise the image will not be compiled resulting in an infinite remainder.
 
 laravel environment variables
 Laravel environment variables are referenced in the [laravel 7](https://laravel.com/docs/7.x/configuration#environment-configuration) documentation, despite
-If the variables do not prevent the compilation of the docker image, it is advisable that you configure the values ​​to access the database.
+If the variables do not prevent the compilation of the docker image, it is advisable that you configure the values to access the database.
 
     DB_CONNECTION=mysql
     DB_HOST=dbhost
@@ -54,7 +54,7 @@ Para rodar o projeto é necessário algumas configurações prévias:
 Imagem docker do Mariadb.
 As variáveis de ambiente do mariadb são usadas no docker-compose.yml, e são referenciadas na documentação da imagem docker oficial do [maridadb](https://hub.docker.com/_/mariadb) , 
 procure a sessão "Environment Variables" na documentação da imagem docker, essas variáveis devem ser preenchidas no arquivo .env na mesma pasta do arquivo docker-compose.yml,
-caso contrátio a imagem não será compilada resultando e em um restar infinito.
+caso contrátio a imagem não será compilada resultando e em um restart infinito.
 
     MARIADB_DATABASE={nomedobanco}
     MARIADB_ROOT_PASSWORD={passwdroot*}
@@ -63,7 +63,7 @@ caso contrátio a imagem não será compilada resultando e em um restar infinito
 
 Variáveis de ambiente do laravel
 As variáveis de ambiente do laravel são referenciadas na documenação do [laravel 7](https://laravel.com/docs/7.x/configuration#environment-configuration), a pesar   
-das variáveis não impedirem a compilação da imagem docker é aconselhável que você configurem os valoeres para acessar o banco de dados.
+das variáveis não impedirem a compilação da imagem docker, mas é aconselhável que você configure os valores para acessar o banco de dados.
 
     DB_CONNECTION=mysql
     DB_HOST=dbhost
